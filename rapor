@@ -1,0 +1,45 @@
+Boston Housing Fiyat Tahmini – Makine Öğrenmesi Projesi
+
+Proje Amacı:
+
+Boston Housing veri setini kullanarak konut fiyatlarını tahmin etmek.
+Farklı regresyon modellerini karşılaştırarak en iyi tahmin modelini belirlemek.
+Kullanılan Veri Seti:
+
+Boston Housing veri seti
+İçerisinde konut fiyatlarını etkileyen yaş, oda sayısı, suç oranı, emlak vergisi gibi değişkenler bulunuyor.
+
+
+ Veri Keşfi ve Ön İşleme (EDA)
+Eksik verilerin temizlenmesi
+Korelasyon analizi ile gereksiz değişkenlerin çıkarılması
+Bağımlı ve bağımsız değişkenlerin belirlenmesi
+Veri ölçeklendirme (StandardScaler ile normalizasyon)
+Grafikler ve Görseller:
+
+Korelasyon haritası (heatmap)
+Özellik dağılımları (histogram)
+
+
+ Kullanılan Modeller ve Algoritmalar
+Farklı regresyon modelleri denendi:
+Linear Regression
+Random Forest Regressor
+Gradient Boosting Regressor
+Decision Tree Regressor
+K-Nearest Neighbors (KNN) Regressor
+
+Hiperparametre Optimizasyonu:
+
+RandomizedSearchCV kullanarak en iyi parametreleri bulduk.
+
+ Model Karşılaştırmaları ve Sonuçlar
+
+Mean Squared Error (MSE) değerleri karşılaştırıldı.
+Gerçek fiyatlar ile tahmin edilen fiyatlar scatter plot üzerinde gösterildi.
+En düşük hata değerine sahip model belirlendi.
+
+Sonraki İşlemler:
+
+Bu veri setinde regresyon analizleri, belirlenen en iyi model ve parametrelerle gerçekleştirilecek. 
+Böylece en yüksek doğruluk oranına sahip tahminler elde edilecektir.
